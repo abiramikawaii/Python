@@ -1,0 +1,7 @@
+str = input("enter DNA ")
+str=str.replace("G", "W")
+str=str.replace("C", "G")
+str=str.replace("A", "U")
+str=str.replace("T", "A")
+str=str.replace("W", "C")
+print(str)
